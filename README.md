@@ -161,65 +161,6 @@ Chat Panel: "Build a REST API for task management"
 - Context usage tracking
 - Session continuation when needed
 
-## 📖 Usage Examples
-
-### 💻 **Software Development**
-```
-"Create a React TypeScript application with user authentication,
-including login, registration, and dashboard with user profile."
-```
-
-### 📊 **Data Analysis**
-```
-"Analyze the sales data in sales.xlsx, create charts showing
-monthly trends, and generate a PowerPoint presentation for stakeholders."
-```
-
-### 🌐 **Web Research**
-```
-"Research the latest AI trends, compile findings into a structured
-report, and create a summary document with key insights."
-```
-
-### 📝 **Document Generation**
-```
-"Create a comprehensive project proposal document including
-timeline, budget estimates, and risk analysis."
-```
-
-## 🔧 Configuration
-
-### 🎛️ **Agent Settings**
-- **Max Iterations**: 100 (default)
-- **Context Threshold**: 85% (triggers checkpoint)
-- **Streaming**: Enabled for real-time updates
-- **HITL**: Human-in-the-loop for dangerous actions
-
-### 🧠 **Memory Settings**
-- **Scratchpad Size**: Unlimited
-- **Knowledge Retention**: Permanent
-- **Checkpoint History**: 50 sessions
-- **Reflection Interval**: Every 10 tasks
-
-### 🌐 **Provider Settings**
-- **Primary Model**: Choose your preferred AI
-- **Fallback Models**: Automatic failover
-- **Cost Tracking**: Real-time token usage
-- **Rate Limits**: Respect provider limits
-
-## 🏢 System Requirements
-
-### 💻 **Minimum Requirements**
-- **OS**: Windows 10+
-- **RAM**: 8GB (16GB recommended)
-- **Storage**: 500MB free space
-- **Network**: Internet connection for AI services
-
-### 🚀 **Recommended Requirements**
-- **OS**: Windows 11
-- **RAM**: 16GB+ (for large projects)
-- **Storage**: 2GB+ (for projects and knowledge)
-- **Network**: Stable broadband connection
 
 ## 🔒 Security & Privacy
 
@@ -256,37 +197,13 @@ Solaris includes intelligent HITL for safety:
 
 ## 📚 Skills System
 
-### 🔧 **Agent Skills** (146 available)
+### 🔧 **Agent Skills** (146 available) 
 - **Development**: React, Node.js, Python, Rust
 - **Data Science**: Pandas, NumPy, Matplotlib
 - **Web**: HTML, CSS, JavaScript, APIs
 - **Office**: Excel formulas, PowerPoint templates
 - **Productivity**: Git, Docker, CI/CD
 
-### 📦 **External Skills**
-```bash
-# Install community skills
-Settings → Skills → Browse Skills → Install
-```
-
-### 🎯 **Custom Skills**
-Create your own skills with simple YAML format:
-```yaml
----
-name: "my-custom-skill"
-description: "Does something specific"
-category: "custom"
-tools:
-  - name: "my_tool"
-    description: "Tool description"
-    parameters:
-      type: "object"
-      properties:
-        input:
-          type: "string"
----
-# Implementation details...
-```
 
 ## 📊 Performance Monitoring
 
